@@ -1,0 +1,70 @@
+/* style for p tag */
+p{
+    color: darkred;
+}
+
+/* style for title class*/
+.title{
+    color: blue;
+}
+
+/* style for id */
+#container{
+    font-size: small;
+    border: 1px solid green;
+}
+
+img{
+    height:216px;
+    width: 384px;
+}
+
+table, th, td {
+    border: 1px solid;
+    color: orange;
+  }
+
+.landscape {
+  background-color: skyblue;
+  color: black;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container {
+    background-color: lightslategrey;
+    min-height: 800px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header {
+    height: 200px;
+    width: 1000px;
+    background-color: red;
+  }
+
+  .maincontent {
+    min-height: 400px;
+    width: 1000px;
+  }
+
+  .footer {
+    height: 100px;
+    width: 1000px;
+    background-color: red;
+  }
+
+  .BookTourButon {
+    background-color: #7cc1d6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: black;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
