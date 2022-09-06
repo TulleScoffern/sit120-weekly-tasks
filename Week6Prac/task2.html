@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewpoint" content="width=j, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.4/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <input type="checkbox" id="checkbox" v-model="checked" />
+            <label for="checkbox">{{checked}}</label>
+            <div></div>
+            <input type="checkbox" id="jack" value="Jack" v-model="checkedNames" />
+            <label for="jack">Jack</label>
+            <input type="checkbox" id="sam" value="Sam" v-model="checkedNames" />
+            <label for="sam">Jack</label>
+            <input type="checkbox" id="luke" value="Luke" v-model="checkedNames" />
+            <label for="luke">Jack</label>
+            <br />
+            <span>Checked names: {{ checkedNames }}</span>
+        </div>
+    </body>
+</html>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue:',
+            checked: false,
+            checkedNames: [],
+        },
+    });
+</script>
